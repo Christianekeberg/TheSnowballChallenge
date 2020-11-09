@@ -1,0 +1,209 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin left: 0px;
+  background-color: #f4f4f4;
+
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+header{
+  background: #35424a;
+  font-family: Orbitron;
+  color: #ffffff;
+  padding top: 20px;
+  min-height: 70px;
+  border-bottom: #FF0000 3px solid;
+  }
+
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font size: 18px;
+  }
+
+header ul{
+  margin: 0;
+  padding: 20px;
+}
+
+
+header li{
+  display: inline;
+  float: left;
+  padding: 20px 20px 20px 20px;
+
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+  padding: 20px;
+}
+
+header nav{
+  float: right;
+  }
+
+  header .light, header .current a{
+    color: #FF0000;
+    font-weight:
+    }
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#show{
+  min-height: 400px;
+  background: url('IMG/Slideshow1.jpg') no-repeat 0;
+  text-align: center;
+  color: #ffffff;
+  background-size: cover;
+}
+
+#show h2{
+  margin-top: 95px;
+  font-size: 50px;
+  margin-bottom: 7px;
+  }
+
+  #show p{
+    font-style: italic;
+    font-size: 25px;
+  }
+
+  #information{
+    padding: 2px;
+    color: #35424a;
+    background: #FF0000;
+    text-align: center;
+  }
+  #information a{
+    color: #35424a
+  }
+  #information a:hover{
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  #about-atlas li{
+    font-style: italic;
+
+    }
+
+    #line{
+      padding: 2px;
+      color: #35424a;
+      background: #FF0000;
+    }
+
+    .row1{
+      display: flex;
+    }
+
+    .column1{
+      flex: 50%;
+      padding: 5px;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+    }
+    .column2{
+      flex: 50%;
+      padding: 5px;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+    }
+
+
+
+
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #35424a;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FF0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #35424a;
+}
+
+/* Style container/contact  */
+.container {
+  border-radius: 5px;
+  background-color: #;
+  padding: 10px;
+}
+
+/*  two columns, float  to eachother */
+.column {
+
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.image{
+  float: right;
+  margin-right: 25px;
+  margin-top: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+
+}
